@@ -72,5 +72,5 @@ CHROMEDRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEAS
 
     Once you have the secrets, just run any test you like such as;
     cucumber features/  (run every feature there is)
-    cucumber features/mario/mapl_journeys  (our regression tests)
-    cucumber features/mario/mapl_journeys/proxy.feature  
+    cucumber features/analytics/  (our regression tests)
+    cucumber features/analytics/proxy.feature  
