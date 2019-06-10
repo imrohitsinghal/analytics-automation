@@ -1,0 +1,2 @@
+parallel: -t ~@wip -f pretty -f html -o build/reports/report<%= ENV['TEST_ENV_NUMBER'] %>.html -f junit -o build/reports/junit -f rerun -o build/reruns/rerun<%= ENV['TEST_ENV_NUMBER'] %>.txt
+rerun: -f pretty -f html -o build/reports/rerun.html -f junit -o build/reports/junit
